@@ -283,6 +283,7 @@ st.markdown("""
 [data-testid="stSidebarContent"] p,
 [data-testid="stSidebarContent"] span,
 [data-testid="stSidebarContent"] div  { color: #FFFFFF !important; }
+[data-testid="stSidebarContent"] [data-testid="stCaptionContainer"] p { color: #A5B4FC !important; }
 [data-testid="stSidebarContent"] h1,
 [data-testid="stSidebarContent"] h2,
 [data-testid="stSidebarContent"] h3   { color: #FFFFFF !important; }
