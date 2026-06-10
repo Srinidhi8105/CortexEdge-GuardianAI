@@ -283,11 +283,6 @@ st.markdown("""
 [data-testid="stSidebarContent"] p,
 [data-testid="stSidebarContent"] span,
 [data-testid="stSidebarContent"] div  { color: #FFFFFF !important; }
-[data-testid="stSidebarContent"] [data-testid="stCaptionContainer"] p {
-    color: #A5B4FC !important;
-    opacity: 1 !important;
-    font-size: 0.82em;
-}
 [data-testid="stSidebarContent"] h1,
 [data-testid="stSidebarContent"] h2,
 [data-testid="stSidebarContent"] h3   { color: #FFFFFF !important; }
@@ -400,37 +395,6 @@ p, span, label, div                   { color: #111827; }
 
 /* ── Info / warning boxes ── */
 [data-testid="stAlert"] p             { color: #1E2240 !important; font-weight: 600; }
-
-/* ── Fix tab visibility ── */
-.stTabs [data-baseweb="tab-list"] {
-    flex-wrap: wrap !important;
-    overflow: visible !important;
-}
-[data-testid="stTabs"] > div:first-child {
-    overflow: visible !important;
-}
-.block-container {
-    padding-top: 1rem !important;
-    overflow: visible !important;
-}
-
-/* ── Tabs wrapping ── */
-[data-testid="stTabs"] {
-    margin-left: 0 !important;
-    padding-left: 0 !important;
-    overflow: visible !important;
-}
-.stTabs [data-baseweb="tab-list"] {
-    flex-wrap: wrap !important;
-    overflow: visible !important;
-    margin-top: 0 !important;
-}
-.stTabs [data-baseweb="tab"] {
-    white-space: normal !important;
-    min-width: 0 !important;
-    padding: 8px 16px !important;
-}
-
 </style>
 """, unsafe_allow_html=True)
 
